@@ -1,9 +1,12 @@
 [package]
 name = "assert_contains_cli"
+description = "very simple cli to assert a string is contained or not contained in a stream "
 version = "0.1.0"
 authors = ["Pascal Seitz <pascal.seitz@sap.com>"]
+homepage = "https://github.com/PSeitz/assert_contains_cli"
+repository = "https://github.com/PSeitz/assert_contains_cli"
 edition = "2018"
-
+keywords = ["contains", "cli", "pipe", "assert"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
@@ -11,3 +14,7 @@ edition = "2018"
 [[bin]]
 name = "assert_contains"
 path = "src/bin/assert_contains.rs"
+
+[[bin]]
+name = "assert_contains_not"
+path = "src/bin/assert_contains_not.rs"
