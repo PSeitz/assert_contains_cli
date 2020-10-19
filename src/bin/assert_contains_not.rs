@@ -7,7 +7,7 @@ fn main() {
     let mut buffer = String::new();
     io::stdin().read_to_string(&mut buffer).unwrap();
     if buffer.contains(&args) {
-        eprintln!("{:?} found", args);
+        eprintln!("error: {:?} found", args);
         process::exit(0x0100);
     }
 }

@@ -1,7 +1,7 @@
 [package]
 name = "assert_contains_cli"
 description = "very simple cli to assert a string is contained or not contained in a stream "
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Pascal Seitz <pascal.seitz@sap.com>"]
 homepage = "https://github.com/PSeitz/assert_contains_cli"
 repository = "https://github.com/PSeitz/assert_contains_cli"
